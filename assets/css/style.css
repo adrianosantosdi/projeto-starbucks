@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    margin-top: 20px;
+    margin-left: 200px;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: 200px;
+}
+
+.nav a {
+    display: block;
+    text-decoration: none;
+    padding: 10px;
+    color: #808080;
+    font-weight: 900;
+}
+
+.main {
+    position: relative;
+}
+
+.title-content {
+    margin: 200px 0 0 200px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title-content h1 {
+    color: #808080;
+    font-size: 4rem;
+}
+
+.title-content h2 {
+    color: #808080;
+    font-size: 4rem;
+}
+
+.title-content span {
+    color: #018101;
+}
+
+.title-content p {
+    width: 30%;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.title-content a {
+    display: block;
+    margin-top: 10px;
+    width: 150px;
+    height: 40px;
+    text-decoration: none;
+    padding: 10px 0 10px 0;
+    background-color: #018101;
+    color: #FFF;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.cabecalho__texto {
+    width: 30%;
+    line-height: 1.5;
+}
+
+.redes__sociais {
+    display: block;
+    margin-top: 50px;
+}
+
+.redes__sociais img {
+    display: block;
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.main__logo img {
+    z-index: 1;
+}
+
